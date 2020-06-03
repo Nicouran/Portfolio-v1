@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #f4623a;
+  --primary: #030d66;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: navy;
   text-decoration: underline;
 }
 
@@ -2456,7 +2456,7 @@ textarea.form-control {
 }
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(17, 14, 221, 0.25);
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -2471,13 +2471,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: navy;
+  border-color: navy;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: rgb(2, 2, 61);
+  border-color: rgb(2, 2, 61);
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -2650,7 +2650,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-light {
-  color: #212529;
+  color:  #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
@@ -6095,7 +6095,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #03056b !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9797,11 +9797,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: navy !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #d6370c !important;
+  color: navy !important;
 }
 
 .text-secondary {
@@ -9857,7 +9857,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 a.text-dark:hover, a.text-dark:focus {
-  color: #121416 !important;
+  color: #02092e !important;
 }
 
 .text-body {
@@ -9865,7 +9865,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: navy !important;
 }
 
 .text-black-50 {
@@ -10007,11 +10007,11 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #02113a;
 }
 
 hr.light {
-  border-color: #fff;
+  border-color: rgb(240, 240, 240);
 }
 
 .btn {
@@ -10096,7 +10096,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(69, 140, 161, 0.6) 0%, rgba(29, 151, 189, 0.6) 100%), url("../assets/imgmede/embalse.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10164,3 +10164,4 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
